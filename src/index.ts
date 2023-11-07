@@ -6,3 +6,4 @@ export * from "./multicall";
 export * from "./selfPermit";
 export * from "./payments";
 export * from "./nonfungiblePositionManager";
+export * from "./defaultTokenList";

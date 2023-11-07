@@ -14,7 +14,7 @@ export const QUOTER_ADDRESS = "0x30FF944EaEc54a433B7283dA42C6A9c65e20038F";
 export const MULTICALL_ADDRESS =
   "0x6D93fC5ae3c3f5a147Ed92E9CD738BF45D8a29BB";
 
-export const SWAP_ROUTER02_ADDRESS =
+export const SWAP_ROUTER_02_ADDRESS =
   "0x875f7D1A45C5f9D8deeb19bEe68f72fe4187e490";
 
 export const ADDRESS_MAP = {
@@ -23,5 +23,5 @@ export const ADDRESS_MAP = {
   quoterAddress: QUOTER_ADDRESS,
   nonfungiblePositionManagerAddress: NONFUNGIBLE_POSITION_MANAGER_ADDRESS,
   tickLensAddress: TICK_LENS_ADDRESS,
-  swapRouter02Address: SWAP_ROUTER02_ADDRESS,
+  swapRouter02Address: SWAP_ROUTER_02_ADDRESS,
 };

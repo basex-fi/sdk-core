@@ -4,7 +4,7 @@ export interface TokenInfo {
   readonly decimals: number;
   readonly symbol: string;
   readonly icon?: string;
-  readonly coingeckoId?: string[];
+  readonly coingeckoId?: string;
 }
 
 export interface TokenListVersion {

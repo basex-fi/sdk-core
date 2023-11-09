@@ -6,7 +6,7 @@ import { Token } from "./token";
 
 export class Ether extends NativeCurrency {
   public constructor() {
-    super(18, "ETH", "Ether", "/icons/ETH.svg");
+    super(18, "ETH", "Ether", "/icons/ETH.svg", "ethereum");
   }
 
   public get wrapped(): Token {
@@ -16,7 +16,7 @@ export class Ether extends NativeCurrency {
       "WETH",
       "Wrapped Ether",
       "/icons/ETH.svg",
-      "ethereum"
+      "ethereum",
     );
 
     return weth;

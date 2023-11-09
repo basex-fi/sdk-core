@@ -154,7 +154,7 @@ const tokens = [
     name: "USD Base Coin",
     coingeckoId: "usd-coin",
     address: "0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca",
-    decimals: 18,
+    decimals: 6,
     icon: "https://assets.smold.app/api/token/8453/0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca/logo.svg",
   },
   {
